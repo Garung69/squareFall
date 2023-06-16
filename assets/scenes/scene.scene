@@ -18,10 +18,10 @@
         "__id__": 2
       },
       {
-        "__id__": 67
+        "__id__": 35
       },
       {
-        "__id__": 70
+        "__id__": 38
       }
     ],
     "_active": true,
@@ -83,7 +83,7 @@
         "__id__": 23
       },
       {
-        "__id__": 50
+        "__id__": 54
       }
     ],
     "_active": true,
@@ -898,22 +898,22 @@
         "__id__": 24
       },
       {
-        "__id__": 35
-      },
-      {
-        "__id__": 40
+        "__id__": 39
       },
       {
         "__id__": 44
+      },
+      {
+        "__id__": 48
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 48
+        "__id__": 52
       },
       {
-        "__id__": 49
+        "__id__": 53
       }
     ],
     "_prefab": null,
@@ -1310,7 +1310,149 @@
       "y": 0,
       "z": 0
     },
+    "audioManager": {
+      "__id__": 35
+    },
     "_id": "44whig9I9LKbmTUBVW0807"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "AudioControl",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 36
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "f4v0iGirtOd49jg/ouYvHR"
+  },
+  {
+    "__type__": "f047crUXpJMcKSPHnKKlGPk",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 35
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "audioClips": [
+      {
+        "__uuid__": "c68a1cbc-98d5-4cdf-bf55-b3258e91b851",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "29dab8e4-6baa-40f3-a8d1-2b89ee4064c1",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "a883e525-a902-46a8-bcd5-1433854855bf",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "5d8e1487-a9f8-42fd-ac72-1d465ba80738",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "f18b2837-43e9-4b1e-bd0d-efb166d7ef67",
+        "__expectedType__": "cc.AudioClip"
+      }
+    ],
+    "audioSource": {
+      "__id__": 37
+    },
+    "_id": "4eO5yN0AdPj4cr/waztpq/"
+  },
+  {
+    "__type__": "cc.AudioSource",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 38
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_clip": null,
+    "_loop": false,
+    "_playOnAwake": true,
+    "_volume": 1,
+    "_id": "61Z9CDW65HOaJHreMWD13J"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "AudioSound",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 37
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "ccOBPHKwxEhaF46Tk+iFaz"
   },
   {
     "__type__": "cc.Node",
@@ -1321,13 +1463,13 @@
     },
     "_children": [
       {
-        "__id__": 36
+        "__id__": 40
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 39
+        "__id__": 43
       }
     ],
     "_prefab": null,
@@ -1365,16 +1507,16 @@
     "_name": "CurrentScore",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 35
+      "__id__": 39
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 37
+        "__id__": 41
       },
       {
-        "__id__": 38
+        "__id__": 42
       }
     ],
     "_prefab": null,
@@ -1412,7 +1554,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 36
+      "__id__": 40
     },
     "_enabled": true,
     "__prefab": null,
@@ -1433,7 +1575,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 36
+      "__id__": 40
     },
     "_enabled": true,
     "__prefab": null,
@@ -1474,7 +1616,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 35
+      "__id__": 39
     },
     "_enabled": true,
     "__prefab": null,
@@ -1501,13 +1643,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 41
+        "__id__": 45
       },
       {
-        "__id__": 42
+        "__id__": 46
       },
       {
-        "__id__": 43
+        "__id__": 47
       }
     ],
     "_prefab": null,
@@ -1545,7 +1687,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 40
+      "__id__": 44
     },
     "_enabled": true,
     "__prefab": null,
@@ -1566,7 +1708,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 40
+      "__id__": 44
     },
     "_enabled": true,
     "__prefab": null,
@@ -1575,7 +1717,7 @@
       "__expectedType__": "cc.Prefab"
     },
     "spawnPoint": {
-      "__id__": 40
+      "__id__": 44
     },
     "_id": "a7IpJ5XNBLlIBBQ8A4x3Iu"
   },
@@ -1584,7 +1726,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 40
+      "__id__": 44
     },
     "_enabled": true,
     "__prefab": null,
@@ -1593,7 +1735,7 @@
       "__expectedType__": "cc.Prefab"
     },
     "spawnPoint": {
-      "__id__": 40
+      "__id__": 44
     },
     "_id": "5f8ye2WndG2af9pHPeBkh4"
   },
@@ -1608,13 +1750,13 @@
     "_active": false,
     "_components": [
       {
-        "__id__": 45
+        "__id__": 49
       },
       {
-        "__id__": 46
+        "__id__": 50
       },
       {
-        "__id__": 47
+        "__id__": 51
       }
     ],
     "_prefab": null,
@@ -1652,7 +1794,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 44
+      "__id__": 48
     },
     "_enabled": true,
     "__prefab": null,
@@ -1673,7 +1815,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 44
+      "__id__": 48
     },
     "_enabled": true,
     "__prefab": null,
@@ -1700,7 +1842,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 44
+      "__id__": 48
     },
     "_enabled": true,
     "__prefab": null,
@@ -1759,23 +1901,23 @@
       "__id__": 23
     },
     "gameOverScreen": {
-      "__id__": 50
+      "__id__": 54
     },
     "player": {
       "__id__": 34
     },
     "maxScore": 0,
     "scoreLabelInGame": {
-      "__id__": 38
+      "__id__": 42
     },
     "scoreLabelGameOver": {
-      "__id__": 54
+      "__id__": 58
     },
     "maxScoreLabelGameOver": {
-      "__id__": 57
+      "__id__": 61
     },
     "audioManager": {
-      "__id__": 67
+      "__id__": 35
     },
     "_id": "50xpb6M05PkL0Y7YK3zUm9"
   },
@@ -1788,16 +1930,16 @@
     },
     "_children": [
       {
-        "__id__": 51
+        "__id__": 55
       },
       {
-        "__id__": 59
+        "__id__": 63
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 66
+        "__id__": 70
       }
     ],
     "_prefab": null,
@@ -1835,20 +1977,20 @@
     "_name": "Score",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 50
+      "__id__": 54
     },
     "_children": [
       {
-        "__id__": 52
+        "__id__": 56
       },
       {
-        "__id__": 55
+        "__id__": 59
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 58
+        "__id__": 62
       }
     ],
     "_prefab": null,
@@ -1886,16 +2028,16 @@
     "_name": "CurrentScore",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 51
+      "__id__": 55
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 53
+        "__id__": 57
       },
       {
-        "__id__": 54
+        "__id__": 58
       }
     ],
     "_prefab": null,
@@ -1933,7 +2075,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 52
+      "__id__": 56
     },
     "_enabled": true,
     "__prefab": null,
@@ -1954,7 +2096,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 52
+      "__id__": 56
     },
     "_enabled": true,
     "__prefab": null,
@@ -1995,16 +2137,16 @@
     "_name": "BestScore",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 51
+      "__id__": 55
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 56
+        "__id__": 60
       },
       {
-        "__id__": 57
+        "__id__": 61
       }
     ],
     "_prefab": null,
@@ -2042,7 +2184,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 55
+      "__id__": 59
     },
     "_enabled": true,
     "__prefab": null,
@@ -2063,7 +2205,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 55
+      "__id__": 59
     },
     "_enabled": true,
     "__prefab": null,
@@ -2104,7 +2246,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 51
+      "__id__": 55
     },
     "_enabled": true,
     "__prefab": null,
@@ -2125,17 +2267,17 @@
     "_name": "PlayAgainButton",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 50
+      "__id__": 54
     },
     "_children": [
       {
-        "__id__": 60
+        "__id__": 64
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 65
+        "__id__": 69
       }
     ],
     "_prefab": null,
@@ -2173,19 +2315,19 @@
     "_name": "replay_button",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 59
+      "__id__": 63
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 61
+        "__id__": 65
       },
       {
-        "__id__": 62
+        "__id__": 66
       },
       {
-        "__id__": 63
+        "__id__": 67
       }
     ],
     "_prefab": null,
@@ -2223,7 +2365,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 60
+      "__id__": 64
     },
     "_enabled": true,
     "__prefab": null,
@@ -2244,7 +2386,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 60
+      "__id__": 64
     },
     "_enabled": true,
     "__prefab": null,
@@ -2282,13 +2424,13 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 60
+      "__id__": 64
     },
     "_enabled": true,
     "__prefab": null,
     "clickEvents": [
       {
-        "__id__": 64
+        "__id__": 68
       }
     ],
     "_interactable": true,
@@ -2348,7 +2490,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 59
+      "__id__": 63
     },
     "_enabled": true,
     "__prefab": null,
@@ -2369,7 +2511,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 50
+      "__id__": 54
     },
     "_enabled": true,
     "__prefab": null,
@@ -2384,145 +2526,6 @@
       "y": 0.5
     },
     "_id": "ccPuZNKMhL2Lkj6sBtWr6K"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "AudioControl",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 1
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 68
-      }
-    ],
-    "_prefab": null,
-    "_lpos": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_lrot": {
-      "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
-    },
-    "_lscale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_mobility": 0,
-    "_layer": 1073741824,
-    "_euler": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_id": "f4v0iGirtOd49jg/ouYvHR"
-  },
-  {
-    "__type__": "f047crUXpJMcKSPHnKKlGPk",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 67
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "audioClips": [
-      {
-        "__uuid__": "c68a1cbc-98d5-4cdf-bf55-b3258e91b851",
-        "__expectedType__": "cc.AudioClip"
-      },
-      {
-        "__uuid__": "29dab8e4-6baa-40f3-a8d1-2b89ee4064c1",
-        "__expectedType__": "cc.AudioClip"
-      },
-      {
-        "__uuid__": "a883e525-a902-46a8-bcd5-1433854855bf",
-        "__expectedType__": "cc.AudioClip"
-      },
-      {
-        "__uuid__": "5d8e1487-a9f8-42fd-ac72-1d465ba80738",
-        "__expectedType__": "cc.AudioClip"
-      },
-      {
-        "__uuid__": "f18b2837-43e9-4b1e-bd0d-efb166d7ef67",
-        "__expectedType__": "cc.AudioClip"
-      }
-    ],
-    "audioSource": {
-      "__id__": 69
-    },
-    "_id": "4eO5yN0AdPj4cr/waztpq/"
-  },
-  {
-    "__type__": "cc.AudioSource",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 70
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "_clip": null,
-    "_loop": false,
-    "_playOnAwake": true,
-    "_volume": 1,
-    "_id": "61Z9CDW65HOaJHreMWD13J"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "AudioSound",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 1
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 69
-      }
-    ],
-    "_prefab": null,
-    "_lpos": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_lrot": {
-      "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
-    },
-    "_lscale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_mobility": 0,
-    "_layer": 1073741824,
-    "_euler": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_id": "ccOBPHKwxEhaF46Tk+iFaz"
   },
   {
     "__type__": "cc.UITransform",
